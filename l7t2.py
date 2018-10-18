@@ -8,7 +8,7 @@ n = random.randint(10,50)
 
 print(n)
 
-array = [random.randint(1,50) for i in range(n)]
+array = [random.uniform(1,50) for i in range(n)]
 array1 = []
 array2 = []
 new_array = []
